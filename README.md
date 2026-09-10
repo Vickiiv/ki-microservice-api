@@ -92,3 +92,7 @@ ki-microservice-api/
 ├── demo-frontend/       React-Demo-Oberfläche
 └── docs/                Demo-GIF
 ```
+
+## Weiterentwicklung
+
+Der Service ist bewusst so gebaut, dass sich neue Fähigkeiten leicht ergänzen lassen (ein Endpoint = ein neuer Controller + eine neue Route). Weitere Erweiterungen sind geplant.
