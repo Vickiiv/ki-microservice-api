@@ -3,7 +3,7 @@
 Ein kleiner, eigenständiger KI-Microservice mit zwei Werkzeugen: Text zusammenfassen und passende Tags vorschlagen.
 Läuft komplett lokal über [Ollama](https://ollama.com) – keine Cloud-API, keine Kosten.
 
-![Demo](docs/demo.gif)
+![Demo](docs/Demo.gif)
 
 ## Warum lokal statt Cloud-API?
 
