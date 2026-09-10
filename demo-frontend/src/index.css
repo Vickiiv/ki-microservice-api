@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cloud: #16131f;
+  --color-card: #1e1a2e;
+  --color-ink: #edebf7;
+  --color-violet: #7c6af0;
+  --color-mist: #9c97b5;
+  --color-lilac: #2a2440;
+  --color-glow: #9b8af5;
+  --font-display: "Instrument Serif", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(30px, -20px) scale(1.05);
+  }
+}
+
+.blob {
+  animation: drift 18s ease-in-out infinite;
+}
+
+.blob-delay {
+  animation: drift 22s ease-in-out infinite reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob,
+  .blob-delay {
+    animation: none;
+  }
+}
