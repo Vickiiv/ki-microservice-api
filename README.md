@@ -1,6 +1,7 @@
 # KI-Werkzeugkasten
 
-Ein kleiner, eigenständiger KI-Microservice mit zwei Werkzeugen: Text zusammenfassen und passende Tags vorschlagen. Läuft komplett lokal über [Ollama](https://ollama.com) – keine Cloud-API, keine Kosten.
+Ein kleiner, eigenständiger KI-Microservice mit zwei Werkzeugen: Text zusammenfassen und passende Tags vorschlagen.
+Läuft komplett lokal über [Ollama](https://ollama.com) – keine Cloud-API, keine Kosten.
 
 ![Demo](docs/demo.gif)
 
